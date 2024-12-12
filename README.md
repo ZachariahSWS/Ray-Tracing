@@ -1,1 +1,5 @@
 # ray_tracing
+
+This is just me messing around with ray tracing to try to get better at graphic programming.
+
+Built for the apple m2 silicon chip using c++.
