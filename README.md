@@ -1,4 +1,4 @@
-# ray_tracing
+# Ray-Tracing
 
 This is just me messing around with ray tracing to try to get better at graphic programming.
 
