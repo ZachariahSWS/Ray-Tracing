@@ -104,23 +104,13 @@ using f64x8 = simd_double8;
 
 // Aliases
 
-using Vec3 = f32x3;
-using Normal3 = f32x3;
-using ColorF = f32x3;
-using ColorU = u8x3;
+using position = f32x3;
+using unitVec = f32x3;
+using colorF = f32x3;
+using colorU = u8x3;
 using m3x2 = simd_float3x2;
 using m3x3 = simd_float3x3;
 using m3x4 = simd_float3x4;
-
-// Mathematical constants
-
-constexpr f32 PI = 3.1415926535897f;
-constexpr f32 TAU = 2.0f * PI;
-constexpr f32 HALF_PI = 0.5f * PI;
-constexpr f32 PI_INV = 1.0 / PI;
-constexpr f32 TAU_INV = 1.0 / TAU;
-constexpr f32 EPSILON = 1e-6f;
-constexpr f32 INFINITY_F = std::numeric_limits<f32>::infinity();
 
 // Avoiding namespace pollution for basic vector math
 
